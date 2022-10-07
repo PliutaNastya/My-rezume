@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221007183642">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+			<aside class="page__sidebar sidebar sidebar__container">
+				<div class="sidebar__photo">
+					<picture><source srcset="img/aboutme_img.webp" type="image/webp"><img src="img/aboutme_img.jpg" alt="My photo"></picture>
+				</div>
+				<div class="sidebar__education education">
+					<h3 class="education__title title" data-lang-id="education.title"></h3>
+					<div class="border"></div>
+					<div class="education__pro">
+						<div class="education__school">Hillel IT School</div>
+						<div class="education__year">10/2022</div>
+						<div class="education__subtitle subtitle">Front-end Pro</div>
+					</div>
+					<div class="education__basic">
+						<div class="education__school">Hillel IT School</div>
+						<div class="education__year">05/2022</div>
+						<a href="https://certificate.ithillel.ua/ru/view/94037512" class="education__subtitle subtitle">Front-end Basic</a>
+					</div>
+				</div>
+				<div class="sidebar__contact contact">
+					<h3 class="contact__title title" data-lang-id="contact.title"></h3>
+					<div class="border"></div>
+					<div class="contact__phone phone-contact">
+						<h4 class="phone-contact__subtitle subtitle" data-lang-id="phone.title"></h4>
+						<a href="tel:+380989514326" class="phone-contact__number">+38(098)-951-43-26</a>
+					</div>
+					<div class="contact__email email-contact">
+						<h4 class="email-contact__subtitle subtitle">E-mail</h4>
+						<a href="mailto:koicheva1996@gmail.com" class="email-contact__address">koicheva1996@gmail.com</a>
+					</div>
+					<div class="contact__telegram telegram-contact">
+						<h4 class="telegram-contact__subtitle subtitle" data-lang-id="telegram.title"></h4>
+						<a href="https://t.me/pliutanastya" class="telegram-contact__anchor" data-lang-id="homepage.title">Anastasiia Pliuta</a>
+					</div>
+				</div>
+			</aside>
+			<section class="page__main main main__container">
+				<select name="lang" class="classic">
+					<option value="en">English</option>
+					<option value="ua">Українська</option>
+					<option value="ru">Русский</option>
+				</select>
+				<div class="main__about-me about-me">
+					<div class="about-me__photo">
+						<picture><source srcset="img/aboutme_img.webp" type="image/webp"><img src="img/aboutme_img.jpg" alt="My photo"></picture>
+					</div>
+					<h1 class="about-me__title" data-lang-id="homepage.title"></h1>
+					<h2 class="about-me__subtitle" data-lang-id="profession.title"></h2>
+					<h3 class="about-me__caption title" data-lang-id="about.subtitle"></h3>
+					<div class="about-me__border border"></div>
+					<p class="about-me__text text" data-lang-id="about.text"></p>
+				</div>
+				<div class="main__projects projects">
+					<h3 class="projects__title title" data-lang-id="projects.title"></h3>
+					<div class="border"></div>
+					<div class="projects__project">
+						<div class="project">
+							<a href="https://bucolic-starburst-711bcd.netlify.app/" class="project__title subtitle" data-lang-id="project1.title"></a>
+							<div class="project__tech">[HTML, CSS, JavaScript, webpack]</div>
+						</div>
+						<div class="project">
+							<a href="https://pliutanastya.github.io/Wedding-Landing-Page/" class="project__title subtitle" data-lang-id="project2.title"></a>
+							<div class="project__tech">[HTML, CSS, JavaScript]</div>
+						</div>
+						<div class="project">
+							<a href="https://pliutanastya.github.io/Bootstrap-Landing-Page/" class="project__title subtitle" data-lang-id="project3.title"></a>
+							<div class="project__tech">[HTML, Bootstrap]</div>
+						</div>
+					</div>
+				</div>
+				<div class="main__skills skills">
+					<h3 class="skills__title title" data-lang-id="skills.title"></h3>
+					<div class="border"></div>
+					<div class="skills__body">
+						<ul class="skills__list">
+							<li class="skills__item">HTML</li>
+							<li class="skills__item">CSS/SASS/SCSS</li>
+							<li class="skills__item">Bootstrap</li>
+							<li class="skills__item">BEM</li>
+						</ul>
+						<ul class="skills__list">
+							<li class="skills__item">JavaScript</li>
+							<li class="skills__item">Webpack</li>
+							<li class="skills__item">React</li>
+							<li class="skills__item">GIT</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20221007183642"></script>
+</body>
+
+</html>
